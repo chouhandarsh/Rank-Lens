@@ -1,0 +1,104 @@
+year,category,ranking_records,records_with_numeric_rank,records_with_score,parameter_records,parameter_rows_flagged_for_review
+2017,College,100,100,100,100,0
+2017,Engineering,100,100,100,100,0
+2017,Management,50,50,50,50,0
+2017,Overall,100,100,100,100,0
+2017,Pharmacy,50,50,50,50,0
+2017,University,100,100,100,100,0
+2018,Architecture,10,10,10,10,0
+2018,College,100,99,100,100,0
+2018,Engineering,100,100,100,100,0
+2018,Law,10,10,10,10,0
+2018,Management,50,50,50,50,0
+2018,Medical,25,25,25,25,0
+2018,Overall,100,100,100,100,0
+2018,Pharmacy,50,50,50,50,0
+2018,Special Mention (2018),4,0,0,0,0
+2018,University,100,100,100,100,0
+2019,Architecture,15,15,15,15,0
+2019,College,100,100,100,100,0
+2019,Engineering,200,200,200,200,0
+2019,Law,15,15,15,15,0
+2019,Management,75,75,75,75,0
+2019,Medical,30,30,30,30,0
+2019,Overall,100,100,100,100,0
+2019,Pharmacy,75,75,75,75,0
+2019,University,100,100,100,100,0
+2020,Architecture,20,20,20,20,0
+2020,College,100,100,100,100,0
+2020,Dental,30,30,30,30,0
+2020,Engineering,200,200,200,200,0
+2020,Law,20,20,20,20,0
+2020,Management,75,75,75,75,0
+2020,Medical,40,40,40,40,0
+2020,Overall,101,101,101,101,0
+2020,Pharmacy,75,75,75,75,0
+2020,University,100,100,100,100,0
+2021,Architecture,25,25,25,25,0
+2021,College,100,100,100,100,0
+2021,Dental,40,40,40,40,0
+2021,Engineering,200,200,200,200,0
+2021,Law,30,30,30,30,0
+2021,Management,75,75,75,75,0
+2021,Medical,50,50,50,50,0
+2021,Overall,100,100,100,100,0
+2021,Pharmacy,75,75,75,75,0
+2021,Research,50,50,50,0,0
+2021,University,100,100,100,100,0
+2022,Architecture,30,30,30,30,0
+2022,College,100,100,100,100,0
+2022,Dental,40,40,40,40,0
+2022,Engineering,200,200,200,200,0
+2022,Law,30,30,30,30,0
+2022,Management,101,101,101,101,0
+2022,Medical,50,50,50,50,0
+2022,Overall,100,100,100,100,0
+2022,Pharmacy,101,101,101,101,0
+2022,Research,50,50,50,0,0
+2022,University,100,100,100,100,0
+2023,Agriculture & Allied Sectors,40,40,40,40,0
+2023,Architecture,30,30,30,30,0
+2023,College,100,100,100,100,0
+2023,Dental,40,40,40,40,0
+2023,Engineering,100,100,100,100,0
+2023,Innovation,10,10,0,0,0
+2023,Law,30,30,30,30,0
+2023,Management,100,100,100,100,0
+2023,Medical,50,50,50,50,0
+2023,Overall,100,100,100,100,0
+2023,Pharmacy,100,100,100,100,0
+2023,Research,50,50,50,0,0
+2023,University,100,100,100,100,0
+2024,Agriculture & Allied Sectors,40,40,40,40,0
+2024,Architecture,40,40,40,40,0
+2024,College,100,100,100,100,0
+2024,Dental,40,40,40,40,0
+2024,Engineering,100,100,100,100,0
+2024,Innovation,10,10,0,0,0
+2024,Law,40,40,40,40,0
+2024,Management,100,100,100,100,0
+2024,Medical,50,50,50,50,0
+2024,Open University,3,3,0,0,0
+2024,Overall,100,100,100,100,0
+2024,Pharmacy,100,100,100,100,0
+2024,Research,50,50,50,0,0
+2024,Skill University,3,3,0,0,0
+2024,State Public University,50,50,50,50,0
+2024,University,100,100,100,100,0
+2025,Agriculture & Allied Sectors,40,40,40,40,0
+2025,Architecture,40,40,40,40,0
+2025,College,100,100,100,100,0
+2025,Dental,40,40,39,39,0
+2025,Engineering,100,100,100,100,0
+2025,Innovation,10,10,0,0,0
+2025,Law,40,40,40,40,0
+2025,Management,100,100,100,100,0
+2025,Medical,50,50,50,50,0
+2025,Open University,3,3,0,0,0
+2025,Overall,100,100,100,100,0
+2025,Pharmacy,101,101,101,101,0
+2025,Research,50,50,50,0,0
+2025,Skill University,3,3,0,0,0
+2025,State Public University,50,50,50,50,0
+2025,Sustainable Development Goals (SDG),10,10,0,0,0
+2025,University,100,100,100,100,0

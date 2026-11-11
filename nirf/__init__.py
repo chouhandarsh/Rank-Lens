@@ -1,0 +1,1 @@
+"""NIRF analytics application package."""

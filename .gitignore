@@ -1,0 +1,32 @@
+# ---- Secrets ---------------------------------------------------------------
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# ---- Python ----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ---- Virtual environments --------------------------------------------------
+venv/
+.venv/
+env/
+nirf_analytics_level2/
+
+# ---- Tooling / editors / OS ------------------------------------------------
+.deepeval/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+tempCodeRunnerFile.py
+
+# ---- Office lock files -----------------------------------------------------
+~$*

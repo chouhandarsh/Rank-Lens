@@ -1,0 +1,42 @@
+dataset,check,value,details
+primary_rankings,missing_year,0.0,"Missing, blank or whitespace-only values in standardized field"
+primary_rankings,missing_category,0.0,"Missing, blank or whitespace-only values in standardized field"
+primary_rankings,missing_institution_id,0.0,"Missing, blank or whitespace-only values in standardized field"
+primary_rankings,missing_institution,0.0,"Missing, blank or whitespace-only values in standardized field"
+primary_rankings,missing_institution_key,0.0,"Missing, blank or whitespace-only values in standardized field"
+primary_rankings,missing_city,0.0,"Missing, blank or whitespace-only values in standardized field"
+primary_rankings,missing_city_imputed,0.0,"Missing, blank or whitespace-only values in standardized field"
+primary_rankings,missing_state,0.0,"Missing, blank or whitespace-only values in standardized field"
+primary_rankings,missing_rank_numeric,5.0,"Missing, blank or whitespace-only values in standardized field"
+primary_rankings,missing_rank_label,14.0,"Missing, blank or whitespace-only values in standardized field"
+primary_rankings,missing_rank_suffix,6977.0,"Missing, blank or whitespace-only values in standardized field"
+primary_rankings,missing_rank_status,0.0,"Missing, blank or whitespace-only values in standardized field"
+primary_rankings,missing_rank_parse_method,0.0,"Missing, blank or whitespace-only values in standardized field"
+primary_rankings,missing_rank_band,0.0,"Missing, blank or whitespace-only values in standardized field"
+primary_rankings,missing_score,57.0,"Missing, blank or whitespace-only values in standardized field"
+primary_rankings,missing_score_status,0.0,"Missing, blank or whitespace-only values in standardized field"
+primary_rankings,missing_score_raw,56.0,"Missing, blank or whitespace-only values in standardized field"
+primary_rankings,missing_rank_source,14.0,"Missing, blank or whitespace-only values in standardized field"
+primary_rankings,missing_source_band,6970.0,"Missing, blank or whitespace-only values in standardized field"
+primary_rankings,missing_name_standardized,0.0,"Missing, blank or whitespace-only values in standardized field"
+primary_rankings,missing_source_rankings,0.0,"Missing, blank or whitespace-only values in standardized field"
+primary_rankings,missing_Institute_ID_Original,4.0,"Missing, blank or whitespace-only values in standardized field"
+primary_rankings,missing_Canonical_ID_Category,246.0,"Missing, blank or whitespace-only values in standardized field"
+primary_rankings,missing_Category_Group,0.0,"Missing, blank or whitespace-only values in standardized field"
+primary_rankings,missing_Is_Core_Category,0.0,"Missing, blank or whitespace-only values in standardized field"
+primary_rankings,total_rows,6980.0,Clean master records plus rows from Tableau-only categories
+primary_rankings,clean_master_rows,6734.0,Records from the clean master CSV
+tableau_merge,rows_added,246.0,Records in categories absent from the clean master
+tableau_merge,new_institutions,37.0,Institutions given a new Institution_ID; see tableau_merge_audit.csv
+tableau_merge,rows_with_standard_parameters,6673.0,"All five of TLR, RPC, GO, OI and PR present"
+tableau_merge,rows_with_research_parameters,250.0,"Research-category SFC, QNR and QLR present"
+tableau_merge,overall_weighted_score_max_residual,0.019,Largest gap between Overall score and 30/30/20/10/10 weighted parameters
+primary_rankings,unique_categories,18.0,"Agriculture & Allied Sectors, Architecture, College, Dental, Engineering, Innovation, Law, Management, Medical, Open University, Overall, Pharmacy, Research, Skill University, Special Mention (2018), State Public University, Sustainable Development Goals (SDG), University"
+primary_rankings,duplicate_year_category_institute_id,0.0,Expected 0
+parameter_workbook,source_rows,900.0,Supplementary Overall-category parameter records
+parameter_workbook,matched_to_primary,894.0,Exact year + Institute ID to master Institute_ID_Original match within Overall category
+parameter_workbook,unmatched_to_primary,6.0,Retained in parameter_match_audit.csv; not joined to rankings
+parameter_workbook,score_discrepancies,94.0,Legacy overall score differs from primary CSV by more than 0.01
+parameter_workbook,rank_discrepancies,89.0,Legacy overall rank differs from primary CSV
+parameter_workbook,matched_parameter_rows_default_usable,800.0,Matched workbook records not flagged by overall rank/score discrepancy; workbook parameters are no longer used
+enriched_fact_table,rows_with_parameters,6673.0,"Rows with all five standard parameters, across categories"

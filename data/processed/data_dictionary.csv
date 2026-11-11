@@ -1,0 +1,53 @@
+field,description,source_or_rule
+year,Ranking year,Master Year; Tableau Year for Tableau-only rows
+category,NIRF category label,Master Category; Tableau Category for Tableau-only rows
+institution_id,Canonical institution identity,Master Institution_ID; Tableau-only rows are assigned through Institution UID (see tableau_merge_audit.csv); use this ID for all joins and filters
+institution,Canonical display name,Master Institution_Name; for new institutions the latest Tableau standardized name; never use as a join key
+institution_key,Compatibility alias for institution_id,Set equal to institution_id; never derive from name/city/state
+city,Institution city,Master City; for new institutions the latest Tableau standardized location
+city_imputed,Whether the master imputed the city,Master City_Imputed
+state,Canonical state or union territory name,Master State or Tableau standardized state; stripped and validated against the 33 canonical values
+rank_numeric,Numeric rank used in analyses,Master Rank_Numeric; Tableau Analytical Rank for Tableau-only rows
+rank_label,Original rank label,Master Rank_Original; Tableau Rank Label for Tableau-only rows
+rank_suffix,Rank suffix where applicable,Master Rank_Suffix
+rank_status,Rank status including withdrawn rows,Master Rank_Status
+rank_parse_method,Compatibility rank parse status,Derived from Rank_Status and Rank_Numeric
+rank_band,Derived rank band,Top 10 / 11–50 / 51–100 / 101+ / Unranked
+score,Numeric score used in analyses,Master Score; Tableau Composite Score for Tableau-only rows; null scores remain null and are omitted from score statistics
+score_status,Score status including not-scored and withdrawn rows,Master Score_Status
+score_raw,Original source score text,Master Score_Original
+rank_source,Original source rank text,Master Rank_Original
+source_band,Source rank band,Master Band
+name_standardized,Standardized master name field,Master Name_Standardized
+source_rankings,Source master filename,Source of the ranking row: nirf_rankings_2017_2025_clean.csv or nirf_tableau_ready_cleaned_v2.csv
+Institute_ID_Original,Original ranking ID used for source linkage,Master Institute_ID_Original
+Canonical_ID_Category,Category associated with the canonical ID,Master Canonical_ID_Category
+Category_Group,Master category group,Master Category_Group; assigned by the build for Tableau-only categories
+Is_Core_Category,Master core-category flag,Master Is_Core_Category; False for Tableau-only categories
+institution_type,Institution type where parameter match exists,Supplementary workbook; Overall category only
+tlr,Teaching Learning and Resources score,Tableau file; blank for Research and rank-only rows
+rpc,Research and Professional Practice score,Tableau file; blank for Research and rank-only rows; do not substitute Research category scores
+go,Graduation Outcome score,Tableau file; blank for Research and rank-only rows
+oi,Outreach and Inclusivity score,Tableau file; blank for rank-only rows
+pr,Perception score,Tableau file; blank for rank-only rows
+score_legacy,Overall score in supplementary workbook,Legacy workbook; Overall only; used only to compare source consistency
+score_primary,Master Overall score,Used only in parameter match audit
+rank_legacy,Rank in supplementary workbook,Used only to compare source consistency
+rank_primary,Master Overall numeric rank,Used only in parameter match audit
+matched_to_primary,Whether exact year and original-ID match was found,Derived exact match on Year + Institute_ID_Original
+score_discrepancy,True if legacy workbook score differs from master score by more than 0.01,Derived audit flag
+rank_discrepancy,True if legacy workbook rank differs from master numeric rank,Derived audit flag
+parameter_review_required,Whether parameter row is flagged for review,False for all rows since parameters moved to the Tableau file; kept for compatibility
+parameter_quality_note,Explanation of parameter linkage,Derived note on how the parameter scores were linked
+parameters_available,True when all five standard parameter scores are present,"Derived; False for Research rows, which use research_sfc, research_qnr and research_qlr"
+research_sfc,Research category SFC score,Tableau file; Research category only
+research_qnr,Research category QNR score,Tableau file; Research category only
+research_qlr,Research category QLR score,Tableau file; Research category only
+parameter_structure,Which parameter set the row has,Tableau Parameter Structure
+data_quality_flags,Source notes such as ties and rank-only listings,Tableau Data Quality Flags
+pdf_url,NIRF PDF for the institution; blank on some rows,Tableau PDF URL
+source_url,NIRF ranking page for the row,Tableau Source URL
+parameter_source,File that supplied the parameter scores,Constant nirf_tableau_ready_cleaned_v2.csv; blank where no parameters exist
+score_change,Score change from the previous year in the same category,Final dataset only; derived for consecutive years
+rank_improvement,Places gained since the previous year; positive means improved,Final dataset only; derived for consecutive years
+parameter_gap,Highest minus lowest standard parameter,Final dataset only; blank unless all five standard parameters exist

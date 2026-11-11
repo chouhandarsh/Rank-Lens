@@ -1,0 +1,101 @@
+year,institution_id,institution,rank_legacy,rank_primary,score_legacy,score_primary,matched_to_primary,rank_discrepancy,score_discrepancy,parameter_quality_note
+2020,INST-0101,Indian Institute of Technology Madras,1,1.0,86.76,85.31,True,False,True,Legacy overall score differs from primary ranking CSV; parameter row should be reviewed
+2020,INST-0239,Indian Institute of Science,2,2.0,82.67,84.18,True,False,True,Legacy overall score differs from primary ranking CSV; parameter row should be reviewed
+2020,INST-0102,Indian Institute of Technology Bombay,3,4.0,82.52,80.75,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0104,Indian Institute of Technology Delhi,4,3.0,81.75,81.33,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0105,Indian Institute of Technology Kanpur,5,6.0,76.5,74.99,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0103,Indian Institute of Technology Kharagpur,6,5.0,75.62,75.85,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0106,Indian Institute of Technology Roorkee,7,9.0,71.4,68.48,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0107,Indian Institute of Technology Guwahati,8,7.0,69.26,68.81,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0240,Jawaharlal Nehru University,9,8.0,66.61,68.76,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0219,Banaras Hindu University,10,10.0,63.1,62.03,True,False,True,Legacy overall score differs from primary ranking CSV; parameter row should be reviewed
+2020,INST-0248,Calcutta University,11,11.0,61.45,61.01,True,False,True,Legacy overall score differs from primary ranking CSV; parameter row should be reviewed
+2020,INST-0244,Amrita Vishwa Vidyapeetham,12,13.0,59.87,60.74,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0120,Jamia Millia Islamia,13,16.0,59.54,59.85,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0109,Jadavpur University,14,12.0,58.93,60.77,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0251,Manipal Academy of Higher Education-Manipal,15,14.0,58.91,59.96,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0110,Indian Institute of Technology Hyderabad,16,17.0,58.53,59.59,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0242,University of Hyderabad,17,15.0,57.67,59.92,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0246,Aligarh Muslim University,18,31.0,57.38,52.54,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0243,University of Delhi,19,18.0,56.03,58.97,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0245,Savitribai Phule Pune University,20,19.0,55.83,58.77,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0113,Vellore Institute of Technology,21,28.0,55.39,53.89,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0261,Bharathiar University,22,21.0,55.38,57.32,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0111,National Institute of Technology Tiruchirappalli,23,24.0,54.97,55.92,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0250,Indian Institute of Science Education and Research Pune,24,25.0,54.47,55.43,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0108,Anna University,25,20.0,54.42,58.1,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0123,Indian Institute of Technology (Indian School of Mines),26,22.0,53.88,56.05,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0114,Institute of Chemical Technology,27,34.0,53.76,51.7,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0131,Indian Institute of Technology (Banaras Hindu University) Varanasi,28,26.0,53.74,54.82,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0116,Birla Institute of Technology and Science -Pilani,29,27.0,53.32,54.13,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0115,Indian Institute of Technology Indore,30,23.0,53.22,55.94,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0121,Indian Institute of Technology Ropar,31,39.0,52.89,50.92,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0122,"National Institute of Technology Karnataka, Surathkal",32,33.0,52.88,51.86,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0130,Indian Institute of Technology Gandhinagar,33,35.0,52.77,51.49,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0266,Mysore University,34,47.0,50.49,49.75,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0260,Indian Institute of Science Education and Research Kolkata,35,29.0,50.48,53.49,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0254,Homi Bhabha National Institute,36,30.0,50.42,53.2,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0480,Siksha 'O' Anusandhan,37,38.0,50.34,50.97,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0265,Panjab University,38,44.0,50.31,50.24,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0147,Kalinga Institute of Industrial Technology,39,44.0,50.0,50.24,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0264,"Indian Institute of Science Education and Research, Mohali",40,59.0,49.58,47.19,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0112,National Institute of Technology Rourkela,41,32.0,49.27,51.87,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0424,Shanmugha Arts Science Technology and Research Academy,42,48.0,49.15,49.4,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0146,Amity University,43,63.0,48.87,46.88,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0262,Kerala University,43,42.0,48.87,50.71,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0422,Thapar Institute of Engineering and Technology (Deemed-to-be-university),45,51.0,48.83,48.59,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0117,"Indian Institute of Engineering Science and Technology, Shibpur",46,43.0,48.7,50.41,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0272,University of Madras,47,41.0,48.66,50.76,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0198,"Andhra University, Visakhapatnam",48,36.0,48.65,51.24,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0282,Saveetha Institute of Medical and Technical Sciences,49,66.0,48.63,46.81,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0289,Indian Institute of Science Education and Research Bhopal,50,40.0,48.57,50.83,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0119,Indian Institute of Technology Patna,51,54.0,47.67,48.09,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0484,"Mahatma Gandhi University, Kottayam",52,49.0,47.62,49.29,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0135,S.R.M. Institute of Science and Technology,53,58.0,47.3,47.27,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0139,Delhi Technological University,54,62.0,46.98,46.89,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,IR-O-U-0334,"Visvesvaraya National Institute of Technology, Nagpur",54,,46.98,,False,False,False,No exact year + Institute ID match in primary Overall data
+2020,INST-0487,JSS Academy of Higher Education and Research,56,54.0,46.95,48.09,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0355,Alagappa University,57,64.0,46.79,46.85,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0118,Indian Institute of Technology Bhubaneswar,58,56.0,46.78,47.96,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0134,National Institute of Technology Warangal,59,46.0,46.69,49.82,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0470,King George's Medical University,60,50.0,46.65,48.91,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0273,Sathyabama Institute of Science and Technology,61,61.0,46.6,47.03,True,False,True,Legacy overall score differs from primary ranking CSV; parameter row should be reviewed
+2020,INST-0749,Gujarat University,62,60.0,46.57,47.1,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0256,Osmania University,62,53.0,46.57,48.54,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0258,Jamia Hamdard,64,37.0,46.46,51.02,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0346,Cochin University of Science and Technology,65,89.0,46.02,43.71,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0280,Banasthali Vidyapith,66,79.0,45.89,44.61,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0259,Gauhati University,67,72.0,45.87,45.48,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0488,Symbiosis International,68,73.0,45.65,45.43,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0168,Koneru Lakshmaiah Education Foundation University (K L College of Engineering),69,70.0,45.64,45.89,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0263,Tata Institute of Social Sciences,70,57.0,45.63,47.45,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0155,National Institute of Technology Durgapur,71,96.0,45.36,42.26,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0428,Malaviya National Institute of Technology,72,71.0,45.29,45.65,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0228,Tezpur University,73,65.0,45.22,46.83,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,IR-O-U-0458,Kalasalingam Academy of Research and Education,74,,45.07,,False,False,False,No exact year + Institute ID match in primary Overall data
+2020,INST-0255,Bharath Institute of Higher Education and Research,75,87.0,44.81,44.03,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0336,University of Kashmir,76,78.0,44.64,44.67,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,IR-O-U-0747,Chandigarh University,77,,44.62,,False,False,False,No exact year + Institute ID match in primary Overall data
+2020,IR-O-U-0374,"Dr. B R Ambedkar National Institute of Technology, Jalandhar",78,,44.53,,False,False,False,No exact year + Institute ID match in primary Overall data
+2020,INST-0473,Sri Ramachandra Institute of Higher Education and Research,79,51.0,44.4,48.59,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0479,Dr. D. Y. Patil Vidyapeeth,80,75.0,44.19,45.08,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0463,Lovely Professional University,81,99.0,43.95,41.81,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0129,Indian Institute of Technology Mandi,82,67.0,43.93,46.56,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0339,Madurai Kamaraj University,83,84.0,43.75,44.27,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0287,Shiv Nadar University,84,82.0,43.6,44.47,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0342,Guru Nanak Dev University,85,88.0,43.21,43.81,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0133,PSG College of Technology,86,85.0,43.14,44.17,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0268,Pondicherry University,87,81.0,43.1,44.48,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0141,Motilal Nehru National Institute of Technology,88,93.0,43.04,42.87,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0425,Sri Sivasubramaniya Nadar College of Engineering,89,83.0,42.94,44.42,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0348,Bharathidasan University,90,77.0,42.79,44.7,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0276,North Eastern Hill University,90,74.0,42.79,45.31,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0148,Sri Venkateswara University,92,68.0,42.78,46.14,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0153,National Institute of Technology Silchar,93,94.0,42.68,42.76,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0460,SVKM's Narsee Monjee Institute of Management Studies,94,92.0,42.56,43.07,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0284,Calicut University,95,76.0,42.42,44.71,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0671,Mumbai University,96,95.0,41.79,42.45,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,INST-0252,Visva Bharati,97,69.0,41.74,45.95,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed
+2020,IR-O-U-0149,Sardar Vallabhbhai National Institute of Technology,98,,41.72,,False,False,False,No exact year + Institute ID match in primary Overall data
+2020,IR-O-U-0099,Guru Gobind Singh Indraprastha University,99,,41.43,,False,False,False,No exact year + Institute ID match in primary Overall data
+2020,INST-0651,Datta Meghe Institute of Higher Education and Research,100,97.0,41.1,42.24,True,True,True,Legacy overall rank and score differ from primary ranking CSV; parameter row should be reviewed

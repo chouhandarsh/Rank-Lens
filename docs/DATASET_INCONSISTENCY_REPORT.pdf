@@ -1,0 +1,320 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [6 0 R 8 0 R 10 0 R 12 0 R] /Count 4 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Length 3434 >>
+stream
+0.035 0.16 0.25 rg 0 748 612 44 re f
+BT /F2 15 Tf 48 765 Td (NIRF Dataset Consistency Audit) Tj ET
+0.93 0.95 0.97 rg 0 0 612 28 re f
+BT /F1 8 Tf 48 10 Td (Read-only analysis | 06 Nov 2026 | Page 1) Tj ET
+0.25 0.30 0.34 rg
+BT /F1 10 Tf 48 728.0 Td (File reviewed: nirf_tableau_ready_cleaned_v2.csv \(provided attachment\)) Tj ET
+0.25 0.30 0.34 rg
+BT /F1 9 Tf 48 711.0 Td (Comparison baseline: data/raw/nirf_rankings_2017_2025_clean.csv and the current processed dataset.) Tj ET
+0.05 0.20 0.32 rg
+BT /F2 12 Tf 48 691.0 Td (Executive summary) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 673.0 Td (Do not replace the current dashboard dataset directly with the attached CSV. The attached) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 660.0 Td (file has a different schema and category set. A key-based comparison found all 6,734) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 647.0 Td (existing ranking rows; all scores and numeric ranks match the current clean master on those) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 634.0 Td (rows. However, the attachment has one confirmed rank-withdrawal flag error, four records) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 621.0 Td (without the original Institute ID, reused raw source UIDs, and significant display-name and) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 608.0 Td (location differences that need review.) Tj ET
+0 0 0 rg
+BT /F1 10 Tf 53 595.0 Td (- No input or project dataset was changed while preparing this report.) Tj ET
+0 0 0 rg
+BT /F1 10 Tf 53 582.0 Td (- Most flagged null scores are explicitly explained by source statuses \(rank-only) Tj ET
+0 0 0 rg
+BT /F1 10 Tf 53 569.0 Td (  listings, special mentions, or a withdrawn record\), not unexplained numeric score) Tj ET
+0 0 0 rg
+BT /F1 10 Tf 53 556.0 Td (  errors.) Tj ET
+0 0 0 rg
+BT /F1 10 Tf 53 543.0 Td (- States are consistent: 33 canonical names, no casing-only duplicates, and no state-name) Tj ET
+0 0 0 rg
+BT /F1 10 Tf 53 530.0 Td (  mismatches on the 6,734 matched records.) Tj ET
+0.05 0.20 0.32 rg
+BT /F2 12 Tf 48 514.0 Td (Dataset profile) Tj ET
+0 0 0 rg
+BT /F1 10 Tf 53 496.0 Td (- Attached CSV: 6,980 rows, 50 columns, years 2017-2025, 18 category labels.) Tj ET
+0 0 0 rg
+BT /F1 10 Tf 53 483.0 Td (- Current clean master / dashboard: 6,734 ranking rows, 12 categories, years 2017-2025.) Tj ET
+0 0 0 rg
+BT /F1 10 Tf 53 470.0 Td (- Attached composite scores: 6,923 present \(57 null\), range 30.31-94.46; no scores outside) Tj ET
+0 0 0 rg
+BT /F1 10 Tf 53 457.0 Td (  0-100.) Tj ET
+0 0 0 rg
+BT /F1 10 Tf 53 444.0 Td (- The 6,734 overlap is matched by Year + Institute ID / Institute_ID_Original, with) Tj ET
+0 0 0 rg
+BT /F1 10 Tf 53 431.0 Td (  category aliases Research Institutions -> Research and Architecture & Planning ->) Tj ET
+0 0 0 rg
+BT /F1 10 Tf 53 418.0 Td (  Architecture.) Tj ET
+0 0 0 rg
+BT /F1 10 Tf 53 405.0 Td (- Within the matched rows: 6,703 non-null scores are exactly equal; all null-score) Tj ET
+0 0 0 rg
+BT /F1 10 Tf 53 392.0 Td (  positions and all numeric ranks also agree.) Tj ET
+0.05 0.20 0.32 rg
+BT /F2 12 Tf 48 376.0 Td (Severity guide) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 358.0 Td (High = can misstate rank eligibility. Medium = identity/integration ambiguity or) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 345.0 Td (inconsistent labels needing review. Informational = expected missingness or additional data) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 332.0 Td (not present in the current dashboard schema.) Tj ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 3590 >>
+stream
+0.035 0.16 0.25 rg 0 748 612 44 re f
+BT /F2 15 Tf 48 765 Td (NIRF Dataset Consistency Audit) Tj ET
+0.93 0.95 0.97 rg 0 0 612 28 re f
+BT /F1 8 Tf 48 10 Td (Read-only analysis | 06 Nov 2026 | Page 2) Tj ET
+0.05 0.20 0.32 rg
+BT /F2 12 Tf 48 725.0 Td (Findings requiring correction or review) Tj ET
+0.66 0.12 0.10 rg
+BT /F2 11 Tf 48 707.0 Td (HIGH - A withdrawn rank is incorrectly marked usable) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 690.0 Td (For Dental, 2025, Faculty of Dental Sciences, Institute of Medical Sciences \(Institution UID) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 677.0 Td (N-71\), the clean master marks Rank_Status = Rank Withdrawn and Score_Status = Withdrawn. In) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 664.0 Td (the attachment, Analytical Rank is 18, Rank Label is 18, Is Rank Withdrawn is False, Rank) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 651.0 Td (Usable for Analysis is True, and Rank Validation Status is Single Distinct Rank. This can) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 638.0 Td (incorrectly include a withdrawn rank in rank comparisons and ranking charts. The other) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 625.0 Td (withdrawn row \(Bishop Heber College, College, 2018\) is marked withdrawn correctly.) Tj ET
+0.65 0.38 0.05 rg
+BT /F2 11 Tf 48 612.0 Td (MEDIUM - Four Special Mention rows cannot be joined by Institute ID) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 595.0 Td (All four 2018 Special Mention records have a blank Institute ID and no score or rank: ICAR -) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 582.0 Td (National Dairy Research Institute; Indian Agricultural Research Institute; Jawaharlal Nehru) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 569.0 Td (Centre for Advanced Scientific Research; Tata Institute of Fundamental Research. These) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 556.0 Td (appear to be recognition-only rows, not scored rankings, but they cannot participate in) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 543.0 Td (ID-based merges without a reviewed crosswalk.) Tj ET
+0.65 0.38 0.05 rg
+BT /F2 11 Tf 48 530.0 Td (MEDIUM - Two reused Raw Institution UID values identify different colleges) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 513.0 Td (Raw UID C-35787 is used for Holy Cross College, Tiruchirappalli and Holy Cross College,) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 500.0 Td (Nagercoil in 2017. Raw UID I-1323 is used for St. Josephs College, Devagiri and St. Josephs) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 487.0 Td (College, Irinjalakuda in 2017. The attachment assigns distinct Institution UID values, so) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 474.0 Td (its transformed identity key avoids conflating these records; the raw-source identifier) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 461.0 Td (reuse should still be checked against its provenance.) Tj ET
+0.65 0.38 0.05 rg
+BT /F2 11 Tf 48 448.0 Td (MEDIUM - Institution labels and city values differ from the current master) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 431.0 Td (Among 6,734 ID-matched rows, 911 have a different Standardized Institution Name and 401 have) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 418.0 Td (a different Standardized Location versus the current master Institution_Name and City. These) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 405.0 Td (may reflect different canonicalization rules, not necessarily incorrect identity matches,) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 392.0 Td (but the differences affect displayed labels, text matching, and map placement. State values) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 379.0 Td (match in all 6,734 rows.) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 4367 >>
+stream
+0.035 0.16 0.25 rg 0 748 612 44 re f
+BT /F2 15 Tf 48 765 Td (NIRF Dataset Consistency Audit) Tj ET
+0.93 0.95 0.97 rg 0 0 612 28 re f
+BT /F1 8 Tf 48 10 Td (Read-only analysis | 06 Nov 2026 | Page 3) Tj ET
+0.05 0.20 0.32 rg
+BT /F2 12 Tf 48 725.0 Td (Examples of label and location differences) Tj ET
+0.05 0.20 0.32 rg
+BT /F2 8.5 Tf 48 707.0 Td (Attached standardized name                      | Current master name                       ) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 8.5 Tf 48 695.0 Td (Atma Ram Sanatan Dharm College                  | Atma Ram Sanatan Dharma College           ) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 8.5 Tf 48 683.0 Td (St. Xavier's College, Kolkata                   | St. Xavier's College                      ) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 8.5 Tf 48 671.0 Td (Fatima College                                  | Fatima College \(Autonomous\)               ) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 8.5 Tf 48 659.0 Td (Shri M.V. & Smt. N.V. Virani Science College    | Shri M.V. and Smt. N.V. Virani Science Col) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 8.5 Tf 48 647.0 Td (Holy Cross College, Tiruchirappalli             | Holy Cross College                        ) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 635.0 Td (These examples illustrate that some name differences are spelling, punctuation, suffix, or) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 622.0 Td (campus detail. The institution IDs still align in the comparison, and scores match; choose) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 609.0 Td (and document one display-name policy before replacing the dashboard source.) Tj ET
+0.05 0.20 0.32 rg
+BT /F2 12 Tf 48 593.0 Td (Example city differences on matched institutions) Tj ET
+0.05 0.20 0.32 rg
+BT /F2 8.5 Tf 48 575.0 Td (Attached standardized location                 | Current master city             ) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 8.5 Tf 48 563.0 Td (New Delhi                                      | Delhi                           ) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 8.5 Tf 48 551.0 Td (Virudhunagar                                   | Virudhnagar                     ) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 8.5 Tf 48 539.0 Td (Mayiladuthurai                                 | Chennai                         ) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 8.5 Tf 48 527.0 Td (District Trichur                               | Thrissur                        ) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 8.5 Tf 48 515.0 Td (Mangaluru                                      | Dakshina Kannada                ) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 503.0 Td (The Mayiladuthurai versus Chennai discrepancy is potentially substantive, not just) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 490.0 Td (capitalization. Review city-level differences before using the attachment for geospatial or) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 477.0 Td (city-level analysis. State-level values did match.) Tj ET
+0.05 0.20 0.32 rg
+BT /F2 12 Tf 48 461.0 Td (Additional rows and schema compatibility) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 443.0 Td (The attachment adds 242 ID-bearing rows outside the current 12-category master, plus the) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 430.0 Td (four no-ID Special Mention rows \(246 additional rows total\). The added categories are) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 417.0 Td (Agriculture & Allied Sectors \(120\), State Public University \(100\), Sustainable Development) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 404.0 Td (Goals \(SDG\) \(10\), Open University \(6\), Skill University \(6\), and Special Mention \(2018\) \(4\).) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 391.0 Td (The project does not currently have equivalent analysis configuration for these categories.) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 378.0 Td (Identity columns differ: Institution UID \(941 distinct values\) is not the dashboard) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 365.0 Td (Institution_ID. The crosswalk used for the 6,734-row score/rank comparison is Institute ID) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 352.0 Td (to Institute_ID_Original, along with Year and category aliases. The attachment contains) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 339.0 Td (2,183 distinct non-null Institute ID values and four blank values; the dashboard analysis) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 326.0 Td (expects its own stable institution_id and established lowercase column names.) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 4191 >>
+stream
+0.035 0.16 0.25 rg 0 748 612 44 re f
+BT /F2 15 Tf 48 765 Td (NIRF Dataset Consistency Audit) Tj ET
+0.93 0.95 0.97 rg 0 0 612 28 re f
+BT /F1 8 Tf 48 10 Td (Read-only analysis | 06 Nov 2026 | Page 4) Tj ET
+0.05 0.20 0.32 rg
+BT /F2 12 Tf 48 725.0 Td (Checks that passed) Tj ET
+0 0 0 rg
+BT /F1 10 Tf 53 707.0 Td (- Primary row key: no duplicates in \(Year, Category, Institution UID\). Non-null Institute) Tj ET
+0 0 0 rg
+BT /F1 10 Tf 53 694.0 Td (  ID keys are unique within Year and Category; the four blank Institute IDs are not) Tj ET
+0 0 0 rg
+BT /F1 10 Tf 53 681.0 Td (  joinable.) Tj ET
+0 0 0 rg
+BT /F1 10 Tf 53 668.0 Td (- Identity consistency: 941 distinct Institution UID values map to one standardized name) Tj ET
+0 0 0 rg
+BT /F1 10 Tf 53 655.0 Td (  each; no standardized name maps to multiple Institution UID values in the attachment.) Tj ET
+0 0 0 rg
+BT /F1 10 Tf 53 642.0 Td (- State consistency: exactly 33 distinct canonical state/UT names; no case-only duplicate) Tj ET
+0 0 0 rg
+BT /F1 10 Tf 53 629.0 Td (  state names; all matched state values equal the current master.) Tj ET
+0 0 0 rg
+BT /F1 10 Tf 53 616.0 Td (- Score domain: every populated Composite Score is between 0 and 100. TLR, RPC, GO, OI,) Tj ET
+0 0 0 rg
+BT /F1 10 Tf 53 603.0 Td (  Perception, and research parameter fields also have no values outside 0-100.) Tj ET
+0 0 0 rg
+BT /F1 10 Tf 53 590.0 Td (- Score missingness \(57 rows\): 30 Innovation rank-only records; 6 Open University and 6) Tj ET
+0 0 0 rg
+BT /F1 10 Tf 53 577.0 Td (  Skill University rank-only records; 10 SDG rank-only records; 4 Special Mention records;) Tj ET
+0 0 0 rg
+BT /F1 10 Tf 53 564.0 Td (  1 Dental record with an omitted/withdrawn score. No missing composite score was found) Tj ET
+0 0 0 rg
+BT /F1 10 Tf 53 551.0 Td (  without a data-quality explanation.) Tj ET
+0 0 0 rg
+BT /F1 10 Tf 53 538.0 Td (- Overall row counts: 100 per year except 2020, which has 101 due to a tie.) Tj ET
+0 0 0 rg
+BT /F1 10 Tf 53 525.0 Td (- Year-over-year arithmetic: 5,229 populated rank-change values equal previous rank minus) Tj ET
+0 0 0 rg
+BT /F1 10 Tf 53 512.0 Td (  current rank; 5,211 populated score-change values equal current score minus prior-year) Tj ET
+0 0 0 rg
+BT /F1 10 Tf 53 499.0 Td (  score \(within floating-point tolerance\). The previous-year-record flag agrees with the) Tj ET
+0 0 0 rg
+BT /F1 10 Tf 53 486.0 Td (  ID/category/year lookup.) Tj ET
+0.05 0.20 0.32 rg
+BT /F2 12 Tf 48 470.0 Td (Interpretation and recommendation) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 452.0 Td (The attachment appears score-compatible with the current dashboard for the 6,734 existing) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 439.0 Td (records. It is not a drop-in replacement: first fix or confirm the 2025 Dental) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 426.0 Td (withdrawn-rank status, decide whether and how to assign IDs to the four Special Mention) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 413.0 Td (rows, validate the two reused raw UIDs and location/name differences, and explicitly map the) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 400.0 Td (six added category labels into the dashboard schema. Keep the current clean master as the) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 387.0 Td (source until these decisions are approved and the rebuild/tests pass.) Tj ET
+0.05 0.20 0.32 rg
+BT /F2 12 Tf 48 371.0 Td (Method and limitations) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 353.0 Td (This is a read-only file audit performed on 6 Nov 2026. Comparison used exact Year +) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 340.0 Td (Institute ID / Institute_ID_Original and the two stated category aliases; no fuzzy name) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 327.0 Td (matching was used. Checks cover row/ID uniqueness, nulls, score bounds, state values, rank) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 314.0 Td (status, and selected derived year-over-year fields. A difference from the current master is) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 301.0 Td (evidence of disagreement, not by itself proof of which source is authoritative. Original) Tj ET
+0.12 0.16 0.20 rg
+BT /F1 10 Tf 48 288.0 Td (NIRF publications were not independently re-verified in this audit.) Tj ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 11 0 R >>
+endobj
+xref
+0 13
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000141 00000 n 
+0000000211 00000 n 
+0000000286 00000 n 
+0000003772 00000 n 
+0000003908 00000 n 
+0000007550 00000 n 
+0000007686 00000 n 
+0000012105 00000 n 
+0000012242 00000 n 
+0000016486 00000 n 
+trailer
+<< /Size 13 /Root 1 0 R >>
+startxref
+16624
+%%EOF

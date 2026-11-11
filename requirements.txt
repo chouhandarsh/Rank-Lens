@@ -1,0 +1,19 @@
+# ---- Dashboard -------------------------------------------------------------
+streamlit>=1.36
+pandas>=2.0
+numpy>=1.24
+plotly>=5.20
+openpyxl>=3.1          # reads the supplementary .xlsx in scripts/build_data.py
+
+# ---- AI chatbot ------------------------------------------------------------
+langchain-core>=1.0
+langchain-sarvam>=0.1
+pydantic-settings>=2.0
+python-dotenv>=1.0
+SQLAlchemy>=2.0
+psycopg[binary]>=3.2
+sqlglot>=25.0
+
+# ---- Optional REST API (chatbot/src/nirf_chatbot/main.py) -----------------
+fastapi>=0.110
+uvicorn>=0.29
